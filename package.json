@@ -1,0 +1,96 @@
+{
+  "name": "diploma",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.5.1",
+    "date-fns": "^3.3.1",
+    "eslint": "^8.56.0",
+    "eslint-config-react-app": "^7.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-calendar": "^4.8.0",
+    "react-day-picker": "^8.10.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-number-format": "^5.3.1",
+    "react-outside-click-handler-lite": "^2.0.1",
+    "react-range-slider-input": "^3.0.7",
+    "react-router": "^6.21.3",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.70.0",
+    "tailwindcss": "^3.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext js --ext jsx src",
+    "lint:fix": "eslint --ext js --ext jsx --fix src"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "extends": [
+      "prettier",
+      "eslint:recommended",
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-debugger": "warn",
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": false,
+          "printWidth": 120,
+          "tabWidth": 2,
+          "jsxSingleQuote": false,
+          "bracketSameLine": false,
+          "endOfLine": "auto"
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.2.4",
+    "push-dir": "^0.4.1"
+  }
+}
